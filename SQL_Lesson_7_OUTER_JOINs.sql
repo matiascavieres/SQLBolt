@@ -8,6 +8,7 @@ FROM employees;
 -- 2.-Find the list of all buildings and their capacity
 SELECT * 
 FROM Buildings;
+
 -- 3.-List all buildings and the distinct employee roles in each building (including empty buildings)
 SELECT DISTINCT building_name, role 
 FROM buildings 
